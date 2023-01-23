@@ -1,0 +1,81 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* component banner */
+body{
+    background-color: #EAEDED;
+    font-family: 'Alatsi';
+}
+
+.banner{
+    background-color: 	#0000EE;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 150px;
+}
+.logo {
+    width: 150px;
+}
+/* component receipt */
+
+.center-receipt {
+    display: flex;
+    justify-content: center;
+}
+.receipt{
+    background-color: white;
+    width: 500px;
+    padding: 30px;
+    border: .5px solid rgba(81, 90, 90, .3);
+    text-align: center;
+    line-height: 25px;
+    margin-top: -90px;
+    border-radius: 10px;
+
+}
+.name {
+    text-transform: uppercase;
+    color: #0000EE;
+}
+.amount {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px;
+}
+hr{
+    opacity: .3;
+}
+.receipt .reference {
+    margin-top: 10px;
+}
+.receipt .merchant {
+    margin-top: 15px;
+}
+.receipt a {
+    text-decoration: none;
+    background-color: #0000EE;
+    color: antiquewhite;
+    display: block;
+    width: 100%;
+    padding: 5px 0;
+    border-radius: 50px;
+    margin: 5px 0;
+
+}
+.receipt a:hover {
+    opacity: 70%;
+    transition: .3s;
+}
+.receipt .payment {
+    margin-top: 10px;
+    font-weight: lighter;
+    opacity: 70%;
+}
+.receipt .amount .total {
+    font-weight: lighter;
+}
+.receipt .fa-circle-check{
+    color: green;
+}
